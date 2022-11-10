@@ -1,0 +1,94 @@
+body{
+    margin:0px;
+     /* width:100vw;
+    height:100vh;  */
+    border: 2px solid red;
+}
+main{
+    width:100%;
+    height:100%;
+}
+#nav-div{
+    height:5%;
+    width:90%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    position: fixed;
+}
+#nav-div a{
+    text-decoration:none;
+    font-size:30px;
+    color:darkseagreen;  
+}
+#search-div{
+    position: relative;
+    left:40%;
+    top:30px;
+    height:3%;
+    width:25%
+}
+#search-div input{
+    border-radius:10px;
+    height:100%;
+    width:80%;
+}
+#search-icon{
+    margin-left:-25px;
+    cursor: pointer;
+}
+#dish-image{
+    margin-top:7%;
+    /* position: relative;
+    left:1%;
+    top:30%;  */
+}
+#dish-image{
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border:2px solid red;
+    height:90%;
+    width:100%;
+}
+.image-container{
+    /* margin:5px; */
+     background-color:yellow; 
+    height:18%;
+    width:18%;
+}
+.image-id{
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+    height:90%;
+    width:100%;
+}
+#fav-icon{
+    margin-top:0px;
+    cursor: pointer;
+    width:20px;
+    height:20px;
+}
+#view-detail{
+    /* cursor: pointer; */
+    text-decoration:none; 
+    margin-top:0px;
+    margin-left:50px;
+    font-size: large;
+}
+#fav-detail{
+     width: 100%;
+    height:20%; 
+    /* background-color: aquamarine; */
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.fav-red{
+ background-color: red;
+}
+
+
